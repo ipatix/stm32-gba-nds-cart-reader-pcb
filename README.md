@@ -9,6 +9,12 @@ In this repository you can find the hardware/PCB files, which belong to the [sof
 This PCB hardware allows you to physically communicate with NDS, DSi, GBA, and GBC carts (GBA/GBC switching via 5V/3V3 jumper).
 Anything else related to the funcionality is part of the software and not explained here.
 
+## Programming
+
+The firmware is flashed to the STM32 via its serial programming interface.
+Set the jumpers BOOT0=1 and BOOT1=0 to start the microcontroller.
+You can then use the stm32flash utility to program the microcontroller via UART.
+
 ## Components
 
 All of the components except the card headers should be avaiable on Mouser or other distributers.
