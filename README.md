@@ -4,10 +4,16 @@
 
 ![PCB Preview](./board-preview.png)
 
-In this repository you can find the hardware/PCB files, which belong to the [software](https://github.com/ipatix/stm32-gba-nds-cart-reader), which has been on my Github account.
+In this repository you can find the hardware/PCB files, which belong to the [software](https://github.com/ipatix/stm32-gba-nds-cart-reader), which has been on my Github account for quite while.
 
-This PCB hardware allows you to physically communicate with NDS, DSi, GBA, and GBC carts.
-Anything else related to the funcionality is 
+This PCB hardware allows you to physically communicate with NDS, DSi, GBA, and GBC carts (GBA/GBC switching via 5V/3V3 jumper).
+Anything else related to the funcionality is part of the software and not explained here.
+
+## Components
+
+All of the components except the card headers should be avaiable on Mouser or other distributers.
+The card headers I orderd on Aliexpress, and they were probably not much more than $1 a piece.
+Though, they may be difficult to source in the future.
 
 ## Bugs
 
