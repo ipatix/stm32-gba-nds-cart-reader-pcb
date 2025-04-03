@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "reader_board")(type "KiCad")(uri "$(KIPRJMOD)/reader_board.pretty")(options "")(descr ""))
+)
